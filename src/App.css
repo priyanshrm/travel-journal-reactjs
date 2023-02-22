@@ -20,3 +20,101 @@
   /* border: 1px solid black; */
   margin-left: 0.5%;
 }
+
+.card--text--top {
+  /* border: 1px solid black; */
+  display: flex;
+  width: 250px;
+  font-size: 12px;
+  margin-top: 40px;
+}
+
+.card--text--top > img {
+  /* border: 1px solid black; */
+  margin: auto;
+  height: 14px;
+  margin-left: 0px;
+}
+
+.card--text--top > p {
+  /* border: 1px solid black; */
+  margin: auto;
+  margin-left: 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+}
+
+.card--text--top > a {
+  /* border: 1px solid black; */
+  margin: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  text-decoration-line: underline;
+  color: #918E9B;
+}
+
+.card--text > h2 {
+  /* border: 1px solid black; */
+  margin-top: 15px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 30px;
+  color: #2B283A;
+}
+
+.card--text--date {
+  /* border: 1px solid black; */
+  margin-top: -10px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  color: #2B283A;
+}
+
+.card--text--desc {
+  /* border: 1px solid black; */
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #2B283A;
+  width: 400px;
+}
+
+.card--text {
+ width: 250px;
+ padding-left: 40px;
+}
+
+.card--img {
+  width: 175px;
+  border-radius: 10px;
+}
+
+
+.card {
+  /* border: 1px solid black; */
+  display: flex;
+  width: 630px;
+  height: 250px;
+  font-family: 'Inter', sans-serif;
+  padding: 20px;
+  border-bottom: #e0e0e0 1px solid;
+}
+
+.cards {
+  /* border: 1px solid black; */
+  margin-left: 29%;
+  margin-top: 5%;
+  width: 650px;
+  height: 100%;
+}
